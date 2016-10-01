@@ -1,0 +1,13 @@
+{
+  "name": "docker-gcloud",
+  "version": "1.0.0",
+  "description": "docker image for alpine with the google cloud sdk",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t ahdinosaur/gcloud .",
+    "example": "docker run -i ahdinosaur/gcloud help",
+    "push": "docker push ahdinosaur/gcloud"
+  },
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "ISC"
+}
